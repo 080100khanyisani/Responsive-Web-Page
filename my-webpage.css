@@ -1,0 +1,164 @@
+/* General styles */
+@media (min-wdth: 960px) {
+    .column h2 {
+        margin-top: 0;
+    }
+
+    .column p {
+        margin-bottom: 10px;
+    }
+
+    .column img {
+        max-width: 100%;
+        height: auto;
+        margin-right: 10px;
+    }
+}
+
+.wrapper1 {
+    background-image: url("table-mountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.wrapper {
+    margin-bottom: 250px;
+    
+}
+
+.column {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lang{
+    font-size: 35px;
+}
+
+.Name{
+    font-size: 35px;
+    padding: 50px;
+    color: aqua;
+}
+
+.place{
+    font-size: 35px;
+}
+
+.city{
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.picture1{
+    width: 150px;
+    height: 140px;
+    float: right;
+    margin-top: -175px;
+    margin-right: 20px;
+}
+
+.picture2{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 100px;
+}
+
+.picture3{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+.picture4{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+.picture5{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 10px;
+}
+
+.picture6{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 10px;
+}
+
+.picture7{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 10px;
+}
+
+.picture8{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 10px;
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+
+    .profile {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .column img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .profile {
+        display: block;
+        margin: 0 auto;
+    }
+}

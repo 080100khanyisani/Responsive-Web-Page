@@ -1,0 +1,111 @@
+table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.wrapper1 {
+    background-image: url("table-mountain-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.column {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.picture1{
+    width: 130px;
+    height: 120px;
+    float: right;
+    margin-top: -100px;
+    margin-right: 1px;
+}
+
+.Name{
+    font-size: 35px;
+    padding: 50px;
+    color: crimson;
+}
+
+.center{
+    margin-left: 500px;
+}
+
+.font-heavy{
+    margin-left: 500px;
+}
+
+.font-heavy1{
+    margin-left: 200px;
+}
+
+@media (min-wdth: 960px) {
+    .column h2 {
+        margin-top: 0;
+    }
+
+    .column p {
+        margin-bottom: 10px;
+    }
+
+    .column img {
+        max-width: 100%;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .center{
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+
+    .profile {
+        width: 100%;
+        display: block;
+    }
+}
+
+.wrapper {
+    margin-bottom: 250px;
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .column img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .profile {
+        display: block;
+        margin: 0 auto;
+    }
+}
