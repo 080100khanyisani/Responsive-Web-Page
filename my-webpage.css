@@ -98,22 +98,36 @@ p{
 .picture3{
     width: 100px;
     height: 100px;
-    float: left;
+    /*float: left;*/
     margin-left: 10px;
 }
 
 .picture4{
     width: 100px;
     height: 100px;
-    float: left;
+    /*float: left;*/
     margin-left: 10px;
 }
 
 .picture5{
     width: 100px;
     height: 100px;
-    float: left;
+    /*float: left;*/
     margin-left: 10px;
+}
+
+@media (max-width: 960px){
+    .picture3{
+        float: right;
+    }
+
+    .picture4{
+        float: left;
+    }
+
+    .picture5{
+        float: right;
+    }
 }
 
 .picture6{
