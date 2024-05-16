@@ -171,15 +171,15 @@ th {
     }
 
     .picture3{
-        float: left;
-    }
-    
-    .picture4{
         float: right;
     }
     
-    .picture5{
+    .picture4{
         float: left;
+    }
+    
+    .picture5{
+        float: right;
     }
 }
 
