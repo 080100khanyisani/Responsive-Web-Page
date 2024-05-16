@@ -20,10 +20,18 @@ body {
     text-decoration: underline;
 }
 
+@media(min-width: 700px) {
+    .centre-text {
+        text-align: center;
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+}
+
 .centre-text {
     text-align: center;
-    margin-left: 500px;
-    margin-top: 200px;
+    /*margin-left: 500px;
+    margin-top: 200px;*/
 }
 
 .centre-links {

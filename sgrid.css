@@ -1,7 +1,38 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}*/
+
+.container {
+    flex-direction: row-reverse;
+    /* Stack items vertically on smaller screens */
+}
+
 table {
     border: 1px solid black;
     width: 100%;
     border-collapse: collapse;
+}
+
+.text {
+    float: right;
+}
+
+/*@media (min-width: 960px) {
+    .text {
+        float: left;
+    }
+}*/
+
+
+
+@media (min-width: 960px) {
+    .container {
+        flex-direction: column-reverse;
+        /* Stack items vertically on smaller screens */
+    }
 }
 
 
@@ -35,7 +66,7 @@ th {
 }
 
 
-.picture1{
+.picture1 {
     width: 130px;
     height: 120px;
     float: right;
@@ -43,21 +74,22 @@ th {
     margin-right: 1px;
 }
 
-.Name{
+.Name {
     font-size: 35px;
     padding: 50px;
     color: crimson;
 }
 
-.center{
+/*.center{
     margin-left: 500px;
 }
 
-.font-heavy{
+/*.font-heavy{
     margin-left: 500px;
-}
+}*/
 
-.font-heavy1{
+
+.font-heavy1 {
     margin-left: 200px;
 }
 
@@ -76,7 +108,7 @@ th {
         margin-right: 10px;
     }
 
-    .center{
+    .center {
         margin-left: 1px;
     }
 }
@@ -95,10 +127,18 @@ th {
 
 .wrapper {
     margin-bottom: 250px;
-    
+    flex: 1 50%;
+
 }
 
-@media only screen and (max-width: 480px) {
+/*.wrapper2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}*/
+
+/*@media only screen and (max-width: 480px) {
     .column img {
         display: block;
         margin: 0 auto;
@@ -108,4 +148,63 @@ th {
         display: block;
         margin: 0 auto;
     }
+}*/
+
+
+@media (/*min-width: 960px*/ max-width: 768px) {
+    .column h2 {
+        margin-top: 0;
+    }
+
+    .column p {
+        margin-bottom: 10px;
+    }
+
+    .column img {
+        max-width: 100%;
+        height: auto;
+        /*margin-right: 10px;*/
+    }
+
+    .center {
+        margin-left: 1px;
+    }
+
+    .picture3{
+        float: left;
+    }
+    
+    .picture4{
+        float: right;
+    }
+    
+    .picture5{
+        float: left;
+    }
 }
+
+
+.picture3{
+    width: 150px;
+    height: 150px;
+    /*float: left;*/
+    margin-left: 10px;
+}
+
+.picture4{
+    width: 150px;
+    height: 150px;
+    /*float: left;*/
+    margin-left: 10px;
+}
+
+.picture5{
+    width: 150px;
+    height: 150px;
+    /*float: left;*/
+    margin-left: 10px;
+}
+
+/*.text {
+    text-align: justify;
+}*/
