@@ -8,6 +8,7 @@
 .container {
     flex-direction: row-reverse;
     /* Stack items vertically on smaller screens */
+    display: flex;
 }
 
 table {
@@ -127,8 +128,8 @@ th {
 
 .wrapper {
     margin-bottom: 250px;
-    flex: 1 50%;
-
+    flex: 1;
+    justify-content: flex-end;
 }
 
 /*.wrapper2 {
@@ -205,6 +206,3 @@ th {
     margin-left: 10px;
 }
 
-/*.text {
-    text-align: justify;
-}*/

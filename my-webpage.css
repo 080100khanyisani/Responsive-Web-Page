@@ -117,6 +117,16 @@ p{
 }
 
 @media (max-width: 960px){
+
+    .column h2 {
+        margin-top: 0;
+        display: block;
+    }
+
+    .column p {
+        margin-bottom: 10px;
+    }
+
     .picture3{
         float: right;
     }
